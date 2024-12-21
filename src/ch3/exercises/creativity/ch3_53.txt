@@ -1,0 +1,27 @@
+Outclassed by ex 52! Doing this one instead
+
+
+An evil king has n bottles of wine, and a spy has just poisoned one of them.
+Unfortunately, they do not know which one it is. The poison is very deadly;
+just one drop diluted even a billion to one will still kill. Even so,
+it takes a full month for the poison to take effect. Design a scheme for
+determining exactly which one of the wine bottles was poisoned in just (log n)
+one month's time while expending
+taste testers.
+
+
+
+1) Convert the bottles to binary digits
+1 = 001
+2 = 010
+3 = 100
+4 = 101
+etc
+
+Assign one drinker per bit position and have them drink.
+Go through each number from 1 to n, and if it has a 1 in the drinker's bit position,
+they have a drop from the bottle.
+After one month, line them up again and the dead ones will reveal which
+flipped bits represented poison.
+
+At n >= 8 this represents log n taste testers and n operations

@@ -1,0 +1,5 @@
+Example 2 is 3 constant operations and a loop with one operation occurring n / 2 times
+3 + n/2
+n/2
+constants ignored
+O(n)

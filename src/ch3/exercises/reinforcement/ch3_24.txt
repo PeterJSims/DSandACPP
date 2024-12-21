@@ -1,0 +1,5 @@
+"Show that n^2 is Ω(n log n)"
+
+This is saying n^2 >= n log n
+    n^2 >= n log n  -- divide each by n
+    n >= log n -- mathematically true statement

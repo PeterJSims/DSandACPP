@@ -1,0 +1,11 @@
+"show by induction that the fibonacci series is Ω((3/2)^n)"
+A bit out of my reach but here it goes:
+
+F(n) >= (3/2)^n-1
+F(n + 1) >= (3/2)^n
+
+F(n + 1) >= (3/2)^n-1 + (3/2)^n
+          = (3/2)^n-1 + (1 + 3/2)
+          = (3/2)^n-1 + (3/2)^2
+          = (3/2)^n+1
+

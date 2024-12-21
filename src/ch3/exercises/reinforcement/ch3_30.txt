@@ -1,0 +1,7 @@
+
+Given an n-element array of integers, Algorithm C executes an O(n)time computation for each even number in X and an
+O(log n) time computation for each odd number in X. What are the best-case and worst-case running times of Algorithm?
+
+The best case is all odd numbers == O(n * log n)
+
+Worst case is all even nums == O(n^2)

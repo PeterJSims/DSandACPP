@@ -1,0 +1,4 @@
+"Show that 2^(n+1) is O(2^n)"
+
+Constants are ignored
+2^(n+1) = 2^(n) = 2^n

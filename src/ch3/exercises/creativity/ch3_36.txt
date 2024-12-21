@@ -1,0 +1,3 @@
+neither f(n) function that is neither O(n) nor Ω(n)
+
+f(n) = √n

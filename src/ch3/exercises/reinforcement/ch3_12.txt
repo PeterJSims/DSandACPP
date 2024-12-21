@@ -1,0 +1,5 @@
+Four constant operations
+Two operations occurring n times
+4 + 2n
+Constants ignored
+O(n)

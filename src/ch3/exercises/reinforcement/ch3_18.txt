@@ -1,0 +1,4 @@
+"Show that O(max{f(n),g(n)}) = O(f(n) + g(n))"
+
+The max of f(n) and g(n) is at most the sum of f(n) + g(n).
+Because of this, f(n) + g(n) represents this idea and thus the two are equal.

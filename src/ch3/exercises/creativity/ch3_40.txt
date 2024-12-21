@@ -1,0 +1,9 @@
+logb(f(n) is Θ(log f(n)) if b > 1
+
+logb(f(n)) = log(f(n)) / log(b)
+
+for any constant C
+
+log(f(n)) / c
+without constant
+log(f(n))

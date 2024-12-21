@@ -1,0 +1,22 @@
+Functions:
+4nlogn + 2n
+2^10
+2^logn
+3n + 100log n
+4n
+2^n
+n^2 + 10n
+n^3
+n log n
+
+Ordered:
+
+1. 2^10
+2. 3n + 100logn
+3. 4n
+4. n log n
+5. 4n log n + 2n
+6. n^2 + 10n
+7. n^3
+8. 2^logn
+9. 2^n

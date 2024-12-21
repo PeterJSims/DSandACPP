@@ -1,0 +1,1 @@
+f(x) = x plots the same on a standard scale and log-log scale

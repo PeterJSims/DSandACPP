@@ -1,0 +1,4 @@
+"Show that if d(n) is O(f(n)) and e(n) is O(g(n)), then d(n) + e(n) is O(f(n) + g(n))"
+
+Both d(n) and e(n) represent two constant growth rates.
+Thus the addition of two constant growth rates represents the O of these together.

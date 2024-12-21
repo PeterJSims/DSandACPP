@@ -1,0 +1,2 @@
+Any algorithm which must check each member of a list runs in (at least) O(n) times with
+no exceptions

@@ -1,0 +1,7 @@
+It falls apart at n = 2
+
+Base - 1 sheep - same color as itself
+
+Induction - remove one sheep at a time
+N = 2 - Two unique subsets (sheep A and sheep B).
+They cannot be used to prove the uniqueness of the other, thus this step is not verified.

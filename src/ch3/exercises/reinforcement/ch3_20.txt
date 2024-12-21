@@ -1,0 +1,3 @@
+"Show that if p(n) is a polynomial in in, then logp(n) is O(log n)"
+
+Simply ignoring constants -- all logs map to log2 for O() notation
