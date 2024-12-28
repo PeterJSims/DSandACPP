@@ -29,6 +29,16 @@ namespace vector_generators {
         return random_vector;
     }
 
+    inline std::vector<bool> random_bool_vector(const double length) {
+        std::random_device engine{};
+        std::bernoulli_distribution bernoulli{0.5};
+        std::vector<bool> random_vector;
+        for (int i{0}; i < length; ++i) {
+            random_vector.push_back(bernoulli(engine));
+        }
+        return random_vector;
+    }
+
     template <typename T>
     void shuffle_vector(std::vector<T>& v) {
         std::random_device rd;
