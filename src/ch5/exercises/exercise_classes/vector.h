@@ -219,6 +219,8 @@ class Vector {
         iterator(Vector* v = nullptr, int i = -1) : vec{v}, ind{i} {}
         T& operator*() const { return (*vec)[ind]; }
         T* operator->() const { return &(*vec)[ind]; }
+        iterator operator+(int n){ind += n; return *this;}
+        friend iterator operator+(int lhs, iterator rhs){return rhs + lhs;}
         iterator& operator++() { ++ind; return *this; }
         iterator operator++(int) { iterator old(*this); ++ind; return old; }
         iterator& operator--() { --ind; return *this; }
@@ -240,6 +242,8 @@ class Vector {
         const_iterator(const Vector* v = nullptr, int i = -1) : vec{v}, ind{i} {}
         const T& operator*() const { return (*vec)[ind]; }
         const T* operator->() const { return &(*vec)[ind]; }
+        const_iterator operator+(int n){ind += n; return *this;}
+        friend const_iterator operator+(int lhs, const_iterator rhs){return rhs + lhs;}
         const_iterator& operator++() { ++ind; return *this; }
         const_iterator operator++(int) { const_iterator old(*this); ++ind; return old; }
         const_iterator& operator--() { --ind; return *this; }
