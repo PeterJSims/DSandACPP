@@ -1,0 +1,19 @@
+stack S
+a, b, c
+
+S.push(a)
+S.push(b)
+S.push(c)
+
+
+function two_third_max(S):
+    x := S.top()
+    S.pop()
+    if (S.top() > x)
+        return S.top()
+    else
+        return x
+
+We have now accounted for two of the three starting variables with one comparison.
+One item remains with 1/3 chance of being maximum.
+Therefore we have established that we have deduced the maximum with 2/3 accuracy.

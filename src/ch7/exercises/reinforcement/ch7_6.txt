@@ -1,0 +1,10 @@
+Definition of matching group symbols in an arithmetic expression:
+
+Let S be the set of all proper
+I. Base - Each grouping of the following represents a correct pair:
+   p = [], q = (), r = {}
+II. 1a - If p is in S, then q(p) and r(p) are allowed in S i.e. ([]) or {[}}
+    1b - If q is in S then p(q) and r(q) are allowed in S i.e.  [()] or {()}
+    1c - If r is in S, then p(r) and q(r) are allowed in S i.e. [{}] or ({})
+    1d - For any p,q, or r notated s, ss is a valid symbol i.e. ()[] or []{} or (){}
+II. There are no arithmetic grouping symbols allowed in S other than those derived from the base and recursion.
