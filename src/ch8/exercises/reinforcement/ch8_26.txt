@@ -1,0 +1,3 @@
+
+For a tree T of n nodes, the running time of T.parenthesize(T.root())
+is n -- each node will be traversed once.

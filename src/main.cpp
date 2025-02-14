@@ -1,6 +1,5 @@
 // #include <iostream>
-// #include <print>
-// #include <utility>
+// #include <fstream>
 //
 // #include "shared/vector_generators.h"
 //
@@ -9,12 +8,14 @@
 //
 //     // Image
 //
+//     std::ofstream outfile("test.png");
+//
 //     int image_width = 256;
 //     int image_height = 256;
 //
 //     // Render
 //
-//     std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
+//     outfile << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 //
 //     for (int j = 0; j < image_height; j++) {
 //         for (int i = 0; i < image_width; i++) {
@@ -26,7 +27,7 @@
 //             int ig = int(255.999 * g);
 //             int ib = int(255.999 * b);
 //
-//             std::cout << ir << ' ' << ig << ' ' << ib << '\n';
+//            outfile << ir << ' ' << ig << ' ' << ib << '\n';
 //         }
 //     }
 // }

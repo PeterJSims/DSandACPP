@@ -1,0 +1,19 @@
+
+
+function root():
+    return A[1]
+
+function parent(int idx):
+    return ⌊idx/2⌋
+
+function left(int idx):
+    return 2*idx + 1
+
+function right(int idx):
+    return 2*idx + 2
+
+function is_external(int idx):
+    return left(idx) == null && right(idx) == null
+
+function is_root(int idx):
+    return f(idx) == 1

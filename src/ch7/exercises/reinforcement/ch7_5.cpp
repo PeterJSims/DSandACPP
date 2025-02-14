@@ -7,7 +7,7 @@
 
 
 int main() {
-    LinedQueue<int> queue;
+    LinkedQueue<int> queue;
 
     queue.push(5);
     queue.push(3);

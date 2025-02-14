@@ -1,0 +1,9 @@
+
+a) /user/rt/courses/
+b) cs016/, homeworks/, programs/, cs252/, projects/, papers/, demos/
+c) 9
+d) 1
+e) grades, programs/
+f) papers/, buylow, sellhigh, demos/, market
+g) 3
+h) 4

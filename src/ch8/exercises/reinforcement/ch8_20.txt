@@ -1,0 +1,13 @@
+
+
+For any tree T with more than one node,
+a preorder traversal cannot visit the same nodes in the same order
+as a postorder traversal.
+
+This is due to preorder always visiting the root first, thus immediately
+invalidating the premise as a postorder doesn't.
+
+
+
+However, for a tree with a single child, a preorder traversal will
+visit the nodes in the reverse order of a postorder traversal.

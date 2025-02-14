@@ -1,0 +1,15 @@
+Worst-case depth result for a tree
+
+            x
+           /
+          x
+         /
+        x
+       /
+      x
+     /
+    x
+   /
+ (x)
+
+

@@ -1,0 +1,5 @@
+In an improper binary tree of size n:
+The minimum internal nodes are ⌈n/2⌉
+The maximum internal nodes are n-1 (fully degenerate improper tree)
+The minimum external nodes are 1 (fully degenerate improper tree)
+The maximum external nodes are ⌈n/2⌉

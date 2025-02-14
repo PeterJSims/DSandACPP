@@ -1,0 +1,8 @@
+A proper binary tree is a tree where all nodes have either 0 or 2 children
+Because the number of nodes is 2d + 1 (the root), a proper binary tree will always have an odd number of nodes.
+
+Thus if improper tree T has an even number of nodes (2s), there must always be one additional node added to make it balanced.
+
+At this point, for any two positions with one child, move one child to the other position so that it now has two children.
+
+Thus, with the addition of one additional node, an improper tree of size n can become a proper binary tree of size n + 1.

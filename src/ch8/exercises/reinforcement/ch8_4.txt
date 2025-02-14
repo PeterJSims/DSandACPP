@@ -1,0 +1,9 @@
+int height(Position p) {
+    int h{0};
+    for (Position child : p.children())
+        h = max(h, 1 + height(child));
+    return h;
+}
+
+The running time of the above is O(n) where n represents the nodes that are Position p and its children
+All entries but the root are children of another position and contribute one item of n.

@@ -1,0 +1,75 @@
+
+a) h + 1
+   O
+  / \
+ O   O
+ As height is really the maximum number of edges, this tree represents a level 1 height of a proper
+ binary tree. As is evident, the number of external nodes is one greater than the height, or h + 1.
+
+
+     O
+    / \
+   O   O
+  / \
+ O   O
+
+ A second example of a proper binary tree with the minimum number of external nodes. In this case,
+ for a binary tree of height 2, the minimum number of external nodes is n + 1 or 2 + 1 = 3.
+
+
+ b) 2^h where h is the height of the tree
+
+       O
+    /     \
+   O       O
+  / \     / \
+ O   O   O   O
+
+ In this complete binary tree, the maximum amount of external nodes is 2 raised to the power of the tree height of 2.
+ 2^2 = 4, so the maximum number of external nodes in a proper binary tree is 2^h
+
+
+ c) log(n + 1) - 1 <= h <= (n-1)/2 for a proper binary tree of h height and n nodes
+
+          Figure C
+               O
+            /     \
+           O       O
+          / \
+         O   O
+
+    1a. The figure in answer a represents the minimum binary tree with a height > 0.
+
+        log(3 + 1) - 1 where 3 is the number of nodes
+        log(4) - 1
+        = 2 - 1
+        = 1
+        1 = height 1
+
+    1b. Figure C represents the minimum number of nodes in a tree of height 2 where n = 5
+        log(5 + 1) - 1 <= 2
+        log(6) - 1 <= 2
+        2 - 1 <= 2
+        1 < 2
+
+        Thus it is shown that the lower bound of the height is equal to or greater than log(n + 1) - 1
+        where n is the number of nodes in the proper binary tree.
+
+
+   2a. The figure in answer b represents the maximum nodes in a proper binary tree of height 2.
+        (n - 1) / 2
+         = (7 - 1) / 2
+         = 3
+        h = 2
+        2 < 3 thus it is shown that the height less than (n - 1)/ 2
+    2b. Figure C represents the minimum number of nodes in a tree of height 2 where n = 2
+        (n - 1) / 2
+        = (5 - 1) / 2
+        = 2
+        2 = height 2
+
+        Thus it is shown that the upper bound of the height is equal to or less than (n - 1)/ 2
+        where n is the number of nodes in the proper binary tree.
+
+
+ d) For n = 3, h = 1 the upper bound and lower bound are attained with equality

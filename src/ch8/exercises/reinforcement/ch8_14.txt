@@ -1,0 +1,50 @@
+
+a) We must show that for all f(p), where p is a position of tree T, f(p) <= 2^n - 2
+
+  1a. By definition, if p is the root of T, then f(p) = 0.
+     If p is the root of tree T, then T is a tree with one entry.
+     0 <= 2^1 - 2
+     0 <= 0
+  1b. By definition, if p is the left child of position q, then f(p) = 2f(q) + 1
+      Let p be the left child of the root of tree T, represented as q
+      f(p) = 2 * 0 + 1, where f(q) = 0, according to the definition of f() of the root.
+      f(p) = 1
+
+      The minimum nodes of this tree, with a root position and a left child p, is 2
+      2^n -2
+      = 2^2 -2
+      = 2
+      2f(q) + 1 = 2
+
+      f(p) = 1
+      thus f(p) = 2f(q) + 1 and f(p) < 2^n - 2
+
+  1c. By definition, if p is the right child of position q, then f(p) = 2f(q) + 2
+      Let p be the right child of the root of tree T, represented as q
+      f(p) =2 * 0 + 2, where f(q) = 0, according to the definition of f() of the root.
+      f(p) = 2
+
+      The minimum number of nodes for an array based tree of level 1 is 3.
+      2^n - 2
+      2^3 - 2
+      f(p) <= 2^3 - 2
+      2 < 6
+
+      Thus f(p) = 2f(q) + 2 and f(p) < 2^n - 2
+
+
+
+2. Upper bound of 2^n - 2 for f(p)
+                x
+                 \
+                  x
+                   \
+                    x
+                     \
+                      x
+                       \
+                        x
+                         \
+                          x
+                           \
+                            (x)
